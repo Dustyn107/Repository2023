@@ -7,7 +7,7 @@ Criterios de aceptacion:
 3. si es menor a 70 entonces puede acceder a una licencia estandar
 4. si es mayor a 70 entonces  entonces necesita un licencia especial
 '''
-
+'''
 edad = int(input("Digite su edad:  "))
 if edad < 16:
     print("usted menor a 16 no puede recibir licencia de conduccion")
@@ -17,3 +17,11 @@ elif edad < 70:
     print("usted puede acceder ua una licencia estandar")
 else:
     print("usted puede acceder a un permiso especial de conducion")
+'''
+n = "0"
+m = "0"
+if n > 0 and m > 0:
+    # if m > 0:
+    print("verdadero")
+else:
+    print("falso")

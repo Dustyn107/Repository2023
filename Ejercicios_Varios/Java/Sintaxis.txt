@@ -1,0 +1,15 @@
+
+-Mostrar en pantalla:
+System.out.println();
+
+-Capturar informacion por pantalla
+Scanner input =new Scanner(System.in);
+
+-Guardar numeros
+int num =input.nextInt();
+
+-Guardar palabras
+String nombre =input.nextLine();
+
+-Guardar decimales
+float promedio =input.nextFloat();
