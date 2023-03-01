@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797b74f1-a714-48cc-ae72-9930829bf19b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicios_Condicionales/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicios_Condicionales/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicios_Condicionales/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sintaxis.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ejercicios_Varios_2/Python/Ejercicios/Condicional_Elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios_2/Python/Ejercicios/Condicional_Elif.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
