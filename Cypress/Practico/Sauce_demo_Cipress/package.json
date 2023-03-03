@@ -1,0 +1,22 @@
+{
+  "name": "sauce_demo_cipress",
+  "version": "1.0.0",
+  "description": "Testing saucedemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Repository2023\\Cypress\\Practico\\Sauce_demo_Cipress"
+  },
+  "keywords": [
+    "cipress"
+  ],
+  "author": "Dustyn Test",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
