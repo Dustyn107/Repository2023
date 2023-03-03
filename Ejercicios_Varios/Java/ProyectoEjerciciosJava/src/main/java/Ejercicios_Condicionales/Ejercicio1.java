@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
     public static void main (String args[]) {
-//Pedir el ingreso del nombre y el año de nacimiento. Mostrar el nombre y la edad de la persona.
+//1. Pedir el ingreso del nombre y el año de nacimiento. Mostrar el nombre y la edad de la persona.
 
         //Se crea una variable para el año y el nombre
         int year = 0;
