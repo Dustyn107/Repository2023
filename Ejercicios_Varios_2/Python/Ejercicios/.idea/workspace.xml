@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc8420bd-1f6c-459e-9920-78cb91d79354" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Bucle_for/EjercicioFor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Ejercicios_Condicionales/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios_Libres/Ejercicio1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios_Libres/Ejercicio2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios_Libres/Ejercicio3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios_Libres/Ejercicio4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Ejercicios_Condicionales/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Ejercicios_Condicionales/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Ejercicios_Condicionales/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ejercicios_Varios/Java/ProyectoEjerciciosJava/src/main/java/Ejercicios_Condicionales/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bucles_Ciclos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Repository2023/Ejercicios_Varios_2/Python/Ejercicios_Python"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.Ejercicio4">
     <configuration name="Condicional_Elif" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Ejercicios" />
@@ -198,16 +192,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
