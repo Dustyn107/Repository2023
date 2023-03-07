@@ -9,7 +9,7 @@ describe('Opensource', () => {
   beforeEach("setup", function(){
 	
 	//cy.fixture("datos").as("fx")
-	cy.fixture("example").then((fix)=>{
+	cy.fixture("data").then((fix)=>{
 	this.fx = fix
 	})
 	
@@ -22,7 +22,7 @@ describe('Opensource', () => {
   });
   
   
-  it('TC1| VERIFICACION DE LOGEO', () => {
+  it('TC1| VERIFICACION DE LOGEO', function() {
     
 	login.username()
 	.type(this.fx.username)
