@@ -1,0 +1,20 @@
+Agregar xpath
+
+1. Se puede consultar la pagina web, para verificar si hay actualizaciones 
+   https://www.npmjs.com/package/@cypress/xpath
+
+2. en la terminar instalamos la siguiente linea:
+   npm install -D @cypress/xpath
+
+3. verificamos que en el archivo package.json se agregue por si la siguiente linea:
+   "@cypress/xpath": "^2.0.3",
+    tener en cuenta que la version puede cambiar.
+
+4. Despues que termine de instalar nos dirigimos a la carpeta de support y en el archivo e2e.js
+   debajo de import './commands'; agregamos la siguiente linea:
+   require('@cypress/xpath');
+
+5. ya con esta instalacion se puede utiliza el xpath en cypress.
+ ejemplo: 
+          cy.xpath('// *[@class="dropdown-item size-18 text-cyan"]')
+          cy.xpath('// *[@type="submit"]')

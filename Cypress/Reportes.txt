@@ -1,0 +1,48 @@
+Reportes
+
+1. En la siguiente pagina se encuentra informacion de como instalar el reporte:
+   https://www.npmjs.com/package/cypress-mochawesome-reporter
+
+2. Instalacion del comando para generar reportes desde cypress
+   npm i --save-dev cypress-mochawesome-reporter
+
+3. Verificar que en el archivo packages.json se agregue la dependencia.
+
+4. Agregar en la carpeta de support, en el archivo e2e.js la siguiente linea:
+   import 'cypress-mochawesome-reporter/register';
+
+5. En el archivo cypress.config.js dentro de las llaves de module.exports las siguientes lineas:
+
+  reporter: 'cypress-mochawesome-reporter',
+  reporterOptions: {
+    charts: true,
+    reportPageTitle: 'custom-title',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
+ },
+
+6. Agregar la siguientes lineas en el mismo archivo del punto 5, en las llaves de "e2e:" la siguiente linea:
+   
+	e2e: {
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
+    },
+  },
+});
+
+7. en archivo packages.json, agregamos la siguiente linea en las llaves de Scripts
+
+   "html-reporte":"Cypress run --spec cypress/e2e/Test/PageLogin.cy.js --browser chrome --headed"
+   
+   en donde PageLogin es el nombre del archivo donde se ejecutan las pruebas, este se cambia por el que se vaya a
+   usar.
+   
+   "html-reporte" es el nombre que se dio al reporte y al momento de ejecutarlo en la terminar lo llamaremos por
+    ese nombre.
+
+8. para ejecutar la prueba usaremos el siguiente comando en la terminar:
+   
+   npm run html-reporte
+
+   

@@ -1,0 +1,22 @@
+{
+  "name": "torresytorres_demo",
+  "version": "1.0.0",
+  "description": "Practico de aplicativo",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test",
+    "cypress:open": "cypress open",
+    "reporte-Test":"Cypress run --spec cypress/e2e/Test/Torres_Torres.cy.js --browser chrome --headed"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Dustyn",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.8.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

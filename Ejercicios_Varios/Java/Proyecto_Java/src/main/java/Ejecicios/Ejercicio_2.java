@@ -24,7 +24,7 @@ public class Ejercicio_2 {
 
                     resultado = resultado +(1/(float)i);
                     System.out.println(" el resultado de es: "+ resultado);
-                    {break;} // cierra el buvle infinito del while
+                    {break;} // cierra el bucle infinito del while
 
                 }
 
