@@ -2,7 +2,8 @@ class LandingPageStatusConsulta{
 
     StatusName(){
     
-        return cy.xpath('//tbody/tr[2]/td[1]/div[1]/img[1]') // busca la ultima que se ha creado** status que se creo
+        return cy.xpath('//tbody/tr[20]/td[1]/div[1]/img[1]') // busca la ultima que se ha creado** status que se creo
+         // se debe agregar en el tr el numero a consultar
     }
     
     Search(){

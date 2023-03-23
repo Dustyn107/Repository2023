@@ -1,0 +1,20 @@
+Para habilitar la función de cypress Studio
+se debe agregar en el archivo cypress.config.js la siguiente linea en las llaves de e2e.
+
+"experimentalStudio": true,
+"chromeWebSecurity": false ---> desahabilita la seguridad de chrome
+
+
+ejemplo:
+
+{
+  e2e: {
+    experimentalStudio: true
+  }
+}
+
+/*==========================================================
+
+correr run por debajo
+
+npx cypress open

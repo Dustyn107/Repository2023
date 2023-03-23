@@ -33,16 +33,18 @@ it("TC2| Consulta de Status", function () {
 
     //verificacion de que se encuentra en la pagina de dashboard
     cy.url().should("contain", "/dashboard/main");
-    //consulta en el buscador con el numero de status creado
-    consul.Search().type(this.fx.DescriptionStatus);
+
+    //consulta primero en el buscador con el numero de status creado
+    //consul.Search().type(this.fx.DescriptionStatus);
+    //cy.wait(10000)
 
     consul.StatusName().click();
-    cy.wait(3000);
+    cy.wait(6000);
 
     //diligenciamiento de formulario
 
-    cy.xpath("//tbody/tr[2]/td[1]/lib-dropdown[1]/p-dropdown[1]/div[1]/span[1]").click({force: true});
-    cy.wait(2000)
+    cy.xpath("//tbody/tr[2]/td[1]/lib-dropdown[1]/p-dropdown[1]/div[1]/span[1]").click({force: true});  
+    cy.wait(4000)
     cy.contains('En Produccion').click()
     cy.get(':nth-child(1) > :nth-child(2) > .ng-star-inserted > .input-group > .form-control')
     .type("ASDF").should('have.value','ASDF')
@@ -83,7 +85,7 @@ it("TC2| Consulta de Status", function () {
     cy.wait(2000)
 });
 
-it('carga de archivos', function() {
+it.only('carga de archivos', function() {
 
     login
     .username()
@@ -103,6 +105,15 @@ it('carga de archivos', function() {
 
     consul.StatusName().click();
     cy.wait(3000);
+
+    cy.contains('Seleccione uno')
+    .parent()
+    .find('//*[@id="pr_id_25-table"]/tbody[1]/tr[2]')
+    cy.wait(6000)
+
+    cy.contains('Seleccione uno')
+    .parent('span')
+    .should('have.class', 'completed')
 
     
 });
