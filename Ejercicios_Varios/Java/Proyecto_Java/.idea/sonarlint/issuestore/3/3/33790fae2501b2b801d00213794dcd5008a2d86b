@@ -1,15 +1,0 @@
-
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾õæı
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚åçˆüÿÿÿÿ
-H
-java:S11990"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(È“Á´
-[
-java:S1659"EDeclare "negativo" and all following declarations on a separate line.(òíÜ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(»ëãÎ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(£âÁşÿÿÿÿ
-V	java:S125#"<This block of commented-out lines of code should be removed.(’ØÃ…ÿÿÿÿÿ
-N	java:S106,"9Replace this use of System.out or System.err by a logger.(¸óœÆ
-N	java:S106-"9Replace this use of System.out or System.err by a logger.(ìêÌ
-S	java:S106."9Replace this use of System.out or System.err by a logger.(ó…Ì¶úÿÿÿÿ
-S	java:S1066"9Replace this use of System.out or System.err by a logger.(Î’†ÿùÿÿÿÿ
